@@ -1,0 +1,57 @@
+.login-bar {
+  margin: 95px auto 0 auto;
+  width: 350px;
+}
+.login-img {
+  width: 120px;
+}
+.login-box {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 15px 15px 0 rgba(0,0,0,0.3),
+   0 9px 4px 0 rgba(0,0,0,0.23);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 18px 18px 18px;
+  width: 100%;
+}
+
+.submitBtn {
+  width: 100%;
+}
+
+
+@keyframes headShake {
+  0% { 
+    transform: translateX(0); 
+  }
+
+  12.5% {
+    transform: translateX(-6px) rotateY(-27deg) skewY(1deg);
+  }
+
+  37.5% {
+    transform: translateX(5px) rotateY(13.5deg) skewY(-1deg);
+  }
+
+  62.5% {
+    transform: translateX(-3px) rotateY(-6.75deg) skewY(0);
+  }
+
+  87.5% {
+    transform: translateX(2px) rotateY(9deg);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.headShake {
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(0,.23,1,.71);
+  animation-name: headShake;
+  transform-origin: center bottom;
+}

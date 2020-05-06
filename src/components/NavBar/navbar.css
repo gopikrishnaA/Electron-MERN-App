@@ -1,0 +1,32 @@
+
+.navbar {
+  padding: 0!important;
+  background-color: #017;
+  -webkit-app-region: drag;
+}
+.dropdown-custom .dropdown-toggle::after {
+  display: none!important;
+}
+
+.nav-item {
+  -webkit-app-region: no-drag;
+}
+.nav-link {
+  -webkit-app-region: no-drag;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255, 1)!important;
+}
+
+.navbar-dark .navbar-nav .show>.nav-link {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+}
+.icon-red:hover {
+  background-color: red;
+}

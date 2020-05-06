@@ -1,0 +1,14 @@
+.top-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.header-title {
+  text-align: center;
+  width: 90%;
+}
+
+h3 {
+  color: white;
+}

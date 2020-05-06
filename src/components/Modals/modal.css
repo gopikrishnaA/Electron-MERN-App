@@ -1,0 +1,13 @@
+.comment_section {
+  padding: 0 0.75rem;
+}
+.alert {
+  display: flex;
+  align-items: center;
+}
+.del_icon {
+  font-size: 18px;
+  right: 0;
+  position: absolute;
+  margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+.alert-error {
+  position: absolute!important;
+  top: 45px;
+  width: 350px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
