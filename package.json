@@ -103,7 +103,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "connected-react-router": "^6.6.1",
-    "electron": "^8.2.5",
+    "electron": "^15.5.5",
     "history": "^4.10.1",
     "is-electron": "^2.2.0",
     "prop-types": "^15.7.2",
